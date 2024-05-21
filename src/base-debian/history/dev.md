@@ -11,7 +11,7 @@
 
 ## Variant: bookworm
 
-**Digest:** sha256:a965a735488c8e7d76fc4b905ea34330e83fed6c3914ad681c7dd7be2601dc83
+**Digest:** sha256:098e4b37ff221c61b35586994a21da16cee9e8141b33e63fb6d9eb9178fbfcd3
 
 **Tags:**
 ```
@@ -34,13 +34,13 @@ mcr.microsoft.com/devcontainers/base:dev
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | f7b647e1b13ed9cd2f34f3559c112e61b8c03108 | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | b0561d28b5a3efbbcca4700626fa32e62c23959b | /home/vscode/.oh-my-zsh |
 
 **Other tools and utilities**
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.43.0 | 
+| [git](https://github.com/git/git) | 2.45.0 | 
 
 **Additional linux tools and packages**
 
@@ -56,14 +56,14 @@ mcr.microsoft.com/devcontainers/base:dev
 | htop | 3.2.2-2 |
 | iproute2 | 6.1.0-3 |
 | jq | 1.6-2.1 |
-| less | 590-2 |
-| libc6 | 2.36-9+deb12u3 |
+| less | 590-2.1~deb12u2 |
+| libc6 | 2.36-9+deb12u7 |
 | libgssapi-krb5-2 | 1.20.1-2+deb12u1 |
 | libicu72 | 72.1-3 |
 | libkrb5-3 | 1.20.1-2+deb12u1 |
 | liblttng-ust1 | 2.13.5-1 |
 | libstdc++6 | 12.2.0-14 |
-| locales | 2.36-9+deb12u3 |
+| locales | 2.36-9+deb12u7 |
 | lsb-release | 12.0-1 |
 | lsof | 4.95.0-1 |
 | man-db | 2.11.2-2 |
@@ -87,7 +87,7 @@ mcr.microsoft.com/devcontainers/base:dev
 
 ## Variant: buster
 
-**Digest:** sha256:de2b7a9c0a029c2f367ae0083dd4103199970d5fe06edb480ab3441c0e838a4e
+**Digest:** sha256:288a1ba33c02c56414ed405d9867ccc5295b36a869ccf7d52fcf4cc595b91f1b
 
 **Tags:**
 ```
@@ -108,13 +108,13 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | f7b647e1b13ed9cd2f34f3559c112e61b8c03108 | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | b0561d28b5a3efbbcca4700626fa32e62c23959b | /home/vscode/.oh-my-zsh |
 
 **Other tools and utilities**
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.43.0 | 
+| [git](https://github.com/git/git) | 2.45.0 | 
 
 **Additional linux tools and packages**
 
@@ -123,7 +123,7 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 | apt-transport-https | 1.8.2.3 |
 | apt-utils | 1.8.2.3 |
 | ca-certificates | 20200601~deb10u2 |
-| curl | 7.64.0-4+deb10u8 |
+| curl | 7.64.0-4+deb10u9 |
 | dialog | 1.3-20190211-1 |
 | git | 1:2.20.1-2+deb10u8 |
 | gnupg2 | 2.2.12-1+deb10u2 |
@@ -131,7 +131,7 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 | iproute2 | 4.20.0-2+deb10u1 |
 | jq | 1.5+dfsg-2+b1 |
 | less | 487-0.1+b1 |
-| libc6 | 2.28-10+deb10u2 |
+| libc6 | 2.28-10+deb10u3 |
 | libgcc1 | 1:8.3.0-6 |
 | libgssapi-krb5-2 | 1.17-3+deb10u6 |
 | libicu63 | 63.1-6+deb10u3 |
@@ -139,10 +139,10 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 | liblttng-ust0 | 2.10.3-1 |
 | libssl1.1 | 1.1.1n-0+deb10u6 |
 | libstdc++6 | 8.3.0-6 |
-| locales | 2.28-10+deb10u2 |
+| locales | 2.28-10+deb10u3 |
 | lsb-release | 10.2019051400 |
 | lsof | 4.91+dfsg-1 |
-| man-db | 2.8.5-2 |
+| man-db | 2.8.5-2+deb10u1 |
 | manpages | 4.16-2 |
 | manpages-dev | 4.16-2 |
 | nano | 3.2-3 |
@@ -153,7 +153,7 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 | psmisc | 23.2-1+deb10u1 |
 | rsync | 3.1.3-6 |
 | strace | 4.26-0.2 |
-| sudo | 1.8.27-1+deb10u5 |
+| sudo | 1.8.27-1+deb10u6 |
 | unzip | 6.0-23+deb10u3 |
 | vim-tiny | 2:8.1.0875-5+deb10u6 |
 | wget | 1.20.1-1.1 |
@@ -163,7 +163,7 @@ mcr.microsoft.com/devcontainers/base:dev-debian10
 
 ## Variant: bullseye
 
-**Digest:** sha256:be3f603053bc7dd5fdd14efcb4c5594ce4d497d1135d4d23d111dcc2381f41e5
+**Digest:** sha256:cc2d7ac5795c2857ee0bf45ba80fac8b84a05579ae9eb4328ece3b7286a62ce7
 
 **Tags:**
 ```
@@ -184,13 +184,13 @@ mcr.microsoft.com/devcontainers/base:dev-debian11
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | f7b647e1b13ed9cd2f34f3559c112e61b8c03108 | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | b0561d28b5a3efbbcca4700626fa32e62c23959b | /home/vscode/.oh-my-zsh |
 
 **Other tools and utilities**
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.43.0 | 
+| [git](https://github.com/git/git) | 2.45.0 | 
 
 **Additional linux tools and packages**
 
@@ -206,15 +206,15 @@ mcr.microsoft.com/devcontainers/base:dev-debian11
 | htop | 3.0.5-7 |
 | iproute2 | 5.10.0-4 |
 | jq | 1.6-2.1 |
-| less | 551-2 |
-| libc6 | 2.31-13+deb11u7 |
+| less | 551-2+deb11u2 |
+| libc6 | 2.31-13+deb11u10 |
 | libgssapi-krb5-2 | 1.18.3-6+deb11u4 |
 | libicu67 | 67.1-7 |
 | libkrb5-3 | 1.18.3-6+deb11u4 |
 | liblttng-ust0 | 2.12.1-1 |
 | libssl1.1 | 1.1.1w-0+deb11u1 |
 | libstdc++6 | 10.2.1-6 |
-| locales | 2.31-13+deb11u7 |
+| locales | 2.31-13+deb11u10 |
 | lsb-release | 11.1.0 |
 | lsof | 4.93.2+dfsg-1.1 |
 | man-db | 2.9.4-2 |

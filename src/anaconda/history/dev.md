@@ -4,7 +4,7 @@
 
 **Source release/branch:** [main](https://github.com/devcontainers/images/tree/main/src/anaconda)
 
-**Digest:** sha256:b533d98a36761d262d9cf8dcf336256177719591e0e857fe143f3f4efe27a491
+**Digest:** sha256:f3ef500efef4bf6692dc650909fce02e3f48f6fd1921f39393940fd31b281960
 
 **Tags:**
 ```
@@ -23,15 +23,15 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 
 | Language / runtime | Version | Path |
 |--------------------|---------|------|
-| [Python](https://www.python.org/) | 3.11.5 | /opt/conda |
-| [Jupyter Notebooks](https://jupyter.org/) | 6.5.4 | /opt/conda |
-| [Jupyter Lab](https://jupyter.org/) | 3.6.3 | /opt/conda |
+| [Python](https://www.python.org/) | 3.11.7 | /opt/conda |
+| [Jupyter Notebooks](https://jupyter.org/) | 7.0.8 | /opt/conda |
+| [Jupyter Lab](https://jupyter.org/) | 4.0.11 | /opt/conda |
 
 **Tools installed using git**
 
 | Tool | Commit | Path |
 |------|--------|------|
-| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 5ea2c68be88452b33b35ba8004fc9094618bcd87 | /home/vscode/.oh-my-zsh |
+| [Oh My Zsh!](https://github.com/ohmyzsh/ohmyzsh) | 8c5f64cc2f0e75399a1e906e39713ed25b65ece1 | /home/vscode/.oh-my-zsh |
 
 **Pip / pipx installed tools and packages**
 
@@ -39,13 +39,13 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 |----------------|---------|
 | joblib | 1.3.1 |
 | cookiecutter | 2.2.3 |
-| cryptography | 41.0.7 |
+| cryptography | 42.0.4 |
 | mistune | 3.0.1 |
 | numpy | 1.25.2 |
-| certifi | 2023.11.17 |
-| setuptools | 68.0.0 |
+| certifi | 2024.2.2 |
+| setuptools | 68.2.2 |
 | future | 0.18.3 |
-| wheel | 0.38.4 |
+| wheel | 0.41.2 |
 | nbconvert | 7.7.3 |
 | Werkzeug | 2.3.6 |
 | requests | 2.31.0 |
@@ -57,8 +57,8 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 
 | Tool | Version | Path |
 |------|---------|------|
-| [git](https://github.com/git/git) | 2.43.0 | 
-| [conda](https://github.com/conda/conda) | 23.7.4 | /opt/conda |
+| [git](https://github.com/git/git) | 2.45.0 | 
+| [conda](https://github.com/conda/conda) | 24.4.0 | /opt/conda |
 
 **Additional linux tools and packages**
 
@@ -74,15 +74,15 @@ mcr.microsoft.com/devcontainers/anaconda:dev-3
 | htop | 3.0.5-7 |
 | iproute2 | 5.10.0-4 |
 | jq | 1.6-2.1 |
-| less | 551-2 |
-| libc6 | 2.31-13+deb11u7 |
+| less | 551-2+deb11u2 |
+| libc6 | 2.31-13+deb11u10 |
 | libgssapi-krb5-2 | 1.18.3-6+deb11u4 |
 | libicu67 | 67.1-7 |
 | libkrb5-3 | 1.18.3-6+deb11u4 |
 | liblttng-ust0 | 2.12.1-1 |
 | libssl1.1 | 1.1.1w-0+deb11u1 |
 | libstdc++6 | 10.2.1-6 |
-| locales | 2.31-13+deb11u7 |
+| locales | 2.31-13+deb11u10 |
 | lsb-release | 11.1.0 |
 | lsof | 4.93.2+dfsg-1.1 |
 | man-db | 2.9.4-2 |
